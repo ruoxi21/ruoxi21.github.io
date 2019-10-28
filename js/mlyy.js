@@ -19,7 +19,7 @@ window.onload = function() {
     .offsetHeight;
   const missyou = document.getElementById("missyou");
   const xdgd = youlovebgHeight - 60;
-  console.log(youlovebgHeight, xdgd);
+  console.log(21, youlovebgHeight);
 
   // back-to-top
   const BTT = document.querySelector(".back-to-top");

@@ -37,7 +37,7 @@ hr {
 p {
   font-size: 17px;
   font-weight: 400;
-  line-height: 1.9em;
+  line-height: 1.8em;
   font-family: Merriweather, serif;
   color: #5d686f;
 }
@@ -112,6 +112,7 @@ section {
 }
 
 .create-time {
+  margin-top: 5px;
   font-size: 13px;
   color: #b2b2b2;
   font-family: "Open Sans", sans-serif;
