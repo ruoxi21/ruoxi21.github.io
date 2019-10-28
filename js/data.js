@@ -1243,7 +1243,7 @@ const love = [
       },
       {
         type: "video",
-        src: "/post/video/WeChat@ruoxi21325_20190806212625.mp4"
+        src: "/post/video/WeChat_video@ruoxi21325_20190806212625.mp4"
       },
       {
         type: "text",
