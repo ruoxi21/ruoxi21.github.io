@@ -1,0 +1,230 @@
+/* reset.css */
+html,
+body,
+div,
+header,
+section,
+p,
+span,
+h1,
+h2,
+h3,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 1.5em 0;
+  outline: 0;
+  border: none;
+  border-top: 1px solid #eef2f8;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.9em;
+  font-family: Merriweather, serif;
+  color: #5d686f;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 21325;
+}
+
+.youlovebg {
+  width: 100%;
+  height: 325px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../post/img/youlovebg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header > p {
+  padding: 10px 0 13px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#missyou {
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 21px;
+  color: #fff;
+  text-align: center;
+  background: #df00ff;
+  top: -60px;
+  transition: all 0.325s;
+}
+#missyou div {
+  position: relative;
+}
+.marry {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: -12px;
+}
+.marryou {
+  background: url(../post/img/WeChat_img@ruoxi21325_2019092516490325-1.jpg)
+    no-repeat center;
+  background-size: cover; /* 需放在background:url() 下方, 放上方无效 先有图才能设置大小?,,,*/
+  left: 21px;
+}
+.marryme {
+  background: url(../post/img/WeChat_img@ruoxi21325_2019092516490325-2.jpg)
+    no-repeat center;
+  background-size: cover;
+  right: 21px;
+}
+
+section {
+  padding: 21px;
+  letter-spacing: -0.3px;
+  text-rendering: optimizelegibility;
+  font-family: Merriweather, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-time {
+  font-size: 13px;
+  color: #b2b2b2;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  padding: 2.5rem;
+  color: #4e6e8e;
+  text-align: center;
+  border-top: 1px solid #eaecef;
+}
+
+.showimg-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 21325;
+  background: rgba(21, 21, 21, 0.5);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (min-width: 812px) {
+  .show_img {
+    height: 100vh;
+  }
+}
+
+.back-to-top {
+  box-sizing: border-box;
+  width: 70px;
+  height: 900px;
+  padding: 0 6px;
+  position: fixed;
+  right: 50px;
+  bottom: -100px;
+  z-index: 2;
+  opacity: 1;
+  cursor: pointer;
+  background: url(../scroll.png);
+  transition: all 0.5s ease-in-out;
+}
+
+/**
+ * width:
+ * img/audio 213
+ * video 325
+ */
+.ruoxi-img {
+  display: inline-block;
+  width: 325px;
+  margin-top: 13px;
+  margin-right: 13px;
+  transition: all 0.52s;
+}
+.ruoxi-img:hover {
+  transform: scale(1.1);
+}
+/* @media screen and (min-width: 750px) {
+    .ruoxi-video {
+      width: 100%;
+    }
+  } */
+@media (device-height: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+  .back-to-top {
+    display: none !important;
+  }
+  /* 兼容iphoneX */
+  .ruoxi-video {
+    width: 100%;
+  }
+  .show_img {
+    width: 100vw;
+  }
+}
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .back-to-top {
+    display: none !important;
+  }
+  /* 兼容iphone5 */
+  .ruoxi-video {
+    width: 100%;
+  }
+  .show_img {
+    width: 100vw;
+  }
+}
+@media (device-height: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .back-to-top {
+    display: none !important;
+  }
+  /* 兼容iphone6 */
+  .ruoxi-video {
+    width: 100%;
+  }
+  .show_img {
+    width: 100vw;
+  }
+}
+@media (device-height: 736px) and (-webkit-min-device-pixel-ratio: 2) {
+  .back-to-top {
+    display: none !important;
+  }
+  /* 兼容iphone6 Plus */
+  .ruoxi-video {
+    width: 100%;
+  }
+  .show_img {
+    width: 100vw;
+  }
+}

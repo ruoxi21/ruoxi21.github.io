@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="ico" type="image/x-icon" href="favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="./css/mlyy.css">
+  <script type="text/javascript" src="./js/mlyy.js"></script>
+  <script src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
+  <title>世间美好与你环环相扣</title>
+</head>
+
+<body>
+  <header>
+    <div class="youlovebg">
+      <div>
+        <h1>MLYY</h1>
+        <div>March 25, 2019</div>
+      </div>
+    </div>
+    <p class="youmysoul">伴着你的精神食粮</p>
+  </header>
+
+  <div id="missyou" class="fixed">
+    <div>
+      <i class="marry marryou"></i>
+      <span>MLYY -- 伴着你的精神食粮</span>
+      <i class="marry marryme"></i>
+    </div>
+  </div>
+
+  <section>
+    <div id="app">
+      <hr>
+
+      <div v-for='(item, index) in love' :key='index'>
+
+        <div v-for='(l, i) in item.content' :key='i'>
+          <p v-if="l.type === 'text'" v-html='l.text'></p>
+
+          <img @click='showImgMask($event)' v-if="l.type === 'img'" :src="l.src" alt="_{}" width="325">
+          <div class="showimg-mask" @click="showImg = !showImg" v-if="l.type === 'img' && showImg">
+            <img class="show_img" :src="maskImgUrl" alt="_{}" title="_{}">
+          </div>
+
+          <audio class="a-v" v-if="l.type === 'audio'" controls name="media" width="213">
+            <source :src='l.src' type="audio/mp3">
+          </audio>
+
+          <video class="ruoxi-video a-v" v-if="l.type === 'video'" :src="l.src" controls width="325"></video>
+        </div>
+
+        <!-- createTime -->
+        <p class="create-time" v-if='item.createTime'>{{ item.createTime }}</p>
+
+        <hr>
+      </div>
+    </div>
+  </section>
+
+  <div class="back-to-top" style="top: -900px;"><i class="fa fa-arrow-up"></i></div>
+
+  <footer>
+    MIT Licensed | Copyright © 2018-present ruoxi21325 | Just for Learning Reference
+  </footer>
+
+  <script type="text/javascript" src="./js/data.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        love,
+        showImg: false,
+        maskImgUrl: ''
+      },
+      methods: {
+        showImgMask(e) {
+          // console.log(e)
+          this.showImg = true
+          this.maskImgUrl = e.target.currentSrc
+        }
+      },
+    })
+  </script>
+</body>
+
+</html>
