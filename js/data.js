@@ -656,7 +656,7 @@ const love = [
       },
       {
         type: "video",
-        src: "/post/video/WeChat@ruoxi21325_20190902184325.mp4"
+        src: "/post/video/WeChat_video@ruoxi21325_20190902184325.mp4"
       }
     ]
   },
@@ -1273,7 +1273,7 @@ const love = [
       },
       {
         type: "video",
-        src: "/post/video/WeChat@ruoxi21325_20190805200213.mp4"
+        src: "/post/video/WeChat_video@ruoxi21325_20190805200213.mp4"
       }
     ]
   },
