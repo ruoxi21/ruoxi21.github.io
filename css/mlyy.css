@@ -182,11 +182,11 @@ footer {
   outline: none;
 }
 
-/* @media screen and (min-width: 750px) {
-    .ruoxi-video {
-      width: 100%;
-    }
-  } */
+@media screen and (max-width: 720px) {
+  .back-to-top {
+    display: none !important;
+  }
+}
 @media (device-height: 812px) and (-webkit-min-device-pixel-ratio: 2) {
   .back-to-top {
     display: none !important;
