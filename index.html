@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./css/mlyy.css">
   <script type="text/javascript" src="./js/mlyy.js"></script>
   <script src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
+  <script src="https://unpkg.com/vue-lazyload/vue-lazyload.js"></script>
   <title>世间美好与你环环相扣</title>
 </head>
 
@@ -41,7 +42,7 @@
         <div v-for='(l, i) in item.content' :key='i'>
           <p v-if="l.type === 'text'" v-html='l.text'></p>
 
-          <img @click='showImgMask($event)' v-if="l.type === 'img'" :src="l.src" title="_{}" alt="_{}" width="325">
+          <img @click='showImgMask($event)' v-if="l.type === 'img'" v-lazy="l.src" title="_{}" alt="_{}" width="325">
           <div class="showimg-mask" @click="showImg = !showImg" v-if="l.type === 'img' && showImg">
             <img class="show_img" :src="maskImgUrl" alt="_{}" title="_{}">
           </div>
@@ -69,6 +70,7 @@
 
   <script type="text/javascript" src="./js/data.js"></script>
   <script>
+    Vue.use(VueLazyload)
     new Vue({
       el: '#app',
       data: {
