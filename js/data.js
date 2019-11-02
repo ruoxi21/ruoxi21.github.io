@@ -554,7 +554,9 @@ const love = [
     content: [
       {
         type: "text",
-        text: `半生已过, 学会沉默 from douyin_sign`
+        text: `半生已过, 学会沉默 <br>
+               愿你忠于自己, 活的还像自己 <br>
+                ---from douyin_sign`
       }
     ]
   },
