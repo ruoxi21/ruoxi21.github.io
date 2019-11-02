@@ -48,7 +48,6 @@ const love = [
       }
     ]
   },
-  
   {
     createTime: "2019-10-31 22:23",
     content: [
@@ -60,6 +59,19 @@ const love = [
       {
         type: "audio",
         src: "/post/audio/夜听-生活好难,想被宠着过完.mp3"
+      }
+    ]
+  },
+  {
+    createTime: "2019-11-02 20:49",
+    content: [
+      {
+        type: "text",
+        text: `#召唤爱心守护你 一个能让你笑的人, 就值得!`
+      },
+      {
+        type: "video",
+        src: "/post/video/douyin_video@ruoxi21325_201911022049.mp4"
       }
     ]
   },
