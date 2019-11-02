@@ -126,6 +126,8 @@ footer {
 }
 
 .showimg-mask {
+  width: 100vw;
+  height: 100vh;
   position: fixed;
   top: 0;
   right: 0;
@@ -139,13 +141,17 @@ footer {
   justify-content: center;
   transition: all 0.5s ease-in-out;
 }
+.show_img {
+  max-width: 100vw;
+  max-height: 100vh;
+}
 
 
-@media (min-width: 812px) {
+/* @media (min-width: 812px) {
   .show_img {
     height: 100vh;
   }
-}
+} */
 
 .back-to-top {
   box-sizing: border-box;
