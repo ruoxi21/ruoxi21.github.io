@@ -105,6 +105,20 @@ const love = [
     ]
   },
   {
+    createTime: "2019-11-04 22:57",
+    content: [
+      {
+        type: "text",
+        text: `我这个人满身阴暗，<br>
+                &emsp;却想给别人一丝阳光——人间失格`
+      },
+      {
+        type: "video",
+        src: "/post/video/douyin_video@ruoxi21325_201911042257.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-10-30 19:55",
     content: [
       {
