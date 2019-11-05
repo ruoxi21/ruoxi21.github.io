@@ -52,6 +52,10 @@ const love = [
     createTime: "2019-11-03 08:21",
     content: [
       {
+        type: "text",
+        text: `:music: 春雨里洗过的太阳-王力宏 :revolving_hearts:`
+      },
+      {
         type: "audio",
         src: "/post/audio/春雨里洗过的太阳-王力宏.mp3"
       }
