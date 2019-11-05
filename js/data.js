@@ -27,6 +27,7 @@ const love = [
       },
       {
         type: "audio",
+        autoplay: "autoplay",
         src: "/post/audio/喜欢你-邓紫棋.mp3"
       }
     ]
