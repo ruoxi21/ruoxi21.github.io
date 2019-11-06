@@ -63,6 +63,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-11-06 21:25",
+    content: [
+      {
+        type: "text",
+        text: "那个说爱的人一转身就选择了新人，那个没说的人却选择了时间和孤独！"
+      },
+      {
+        type: "video",
+        src: "/post/video/douyin_video@ruoxi21325_2019110621325.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-11-05 21:25",
     content: [
       {
