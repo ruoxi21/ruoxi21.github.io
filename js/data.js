@@ -50,6 +50,24 @@ const love = [
     ]
   },
   {
+    createTime: "2019-11-08 13:33",
+    content: [
+      {
+        type: "text",
+        text: `愿你是能披荆斩棘的女英雄<br>
+                  &emsp;&emsp;也是被人疼爱的小朋友:ice_cream:`
+      },
+      {
+        type: "img",
+        src: "/post/img/WeChat_img@ruoxi21325_201911081333-1.jpg"
+      },
+      {
+        type: "img",
+        src: "/post/img/WeChat_img@ruoxi21325_201911081333-2.jpg"
+      },
+    ]
+  },
+  {
     createTime: "2019-11-07 21:57",
     content: [
       {
