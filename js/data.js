@@ -76,6 +76,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-11-09 19:36",
+    content: [
+      {
+        type: "text",
+        text: `[色][色]酸菜肉馅滴`
+      },
+      {
+        type: "img",
+        src: "/post/img/WeChat_img@ruoxi21325_201911091936.jpg"
+      },
+    ]
+  },
+  {
     createTime: "2019-11-08 13:33",
     content: [
       {
