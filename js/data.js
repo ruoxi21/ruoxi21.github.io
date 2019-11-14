@@ -63,6 +63,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-11-14 12:35",
+    content: [
+      {
+        type: "text",
+        text: `责无旁贷 - 阿悠悠`
+      },
+      {
+        type: "audio",
+        src: "/post/audio/责无旁贷-阿悠悠.mp3"
+      },
+    ]
+  },
+  {
     createTime: "2019-11-09 12:36",
     content: [
       {
