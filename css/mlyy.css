@@ -80,12 +80,12 @@ header > p {
 #missyou div {
   position: relative;
 }
-i.marry:hover{
+i.marry:hover {
   transform: rotate(666turn);
   transition-delay: 1s;
   transition-property: all;
   transition-duration: 59s;
-  transition-timing-function: cubic-bezier(.34,0,.84,1);
+  transition-timing-function: cubic-bezier(0.34, 0, 0.84, 1);
 }
 .marry {
   display: block;
@@ -106,6 +106,16 @@ i.marry:hover{
     no-repeat center;
   background-size: cover;
   right: 21px;
+}
+
+#site-process {
+  width: 0;
+  height: 2px;
+  position: fixed;
+  left: 0;
+  top: 59px;
+  background: #42a5f5;
+  z-index: 300;
 }
 
 section {
@@ -153,7 +163,6 @@ footer {
   max-height: 100vh;
 }
 
-
 /* @media (min-width: 812px) {
   .show_img {
     height: 100vh;
@@ -191,7 +200,7 @@ footer {
   transform: scale(1.1);
 }
 
-.ruoxi-audio{
+.ruoxi-audio {
   height: 32px;
   outline: none;
 }
