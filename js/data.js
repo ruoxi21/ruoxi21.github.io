@@ -76,6 +76,33 @@ const love = [
     ]
   },
   {
+    createTime: "2019-11-29 22:35",
+    content: [
+      {
+        type: "text",
+        text: `多年以后，当你回首过去，你会感谢那个时候的自己，如此勇敢。<br>
+               [夜听]: <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzI1NjA0MDg2Mw==&mid=2650707692&idx=1&sn=513f0f53c7d78a6011c460455bf2c3e9">一个人, 走过一段艰辛</a>`
+      },
+      {
+        type: "audio",
+        src: "/post/audio/夜听-一个人, 走过一段艰辛.mp3"
+      },
+    ]
+  },
+  {
+    createTime: "2019-11-29 21:09",
+    content: [
+      {
+        type: "text",
+        text: `与这场雪撞了个满怀:皱眉::皱眉:`
+      },
+      {
+        type: "video",
+        src: "/post/video/WeChat_video@ruoxi21325_201911292109.mp4"
+      },
+    ]
+  },
+  {
     createTime: "2019-11-28 08:15",
     content: [
       {
