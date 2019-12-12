@@ -63,6 +63,19 @@ const love = [
     ]
   },
   {
+    createTime: '2019-12-10 21:17',
+    content: [
+      {
+        type: 'text',
+        text: `来谁教教我呗:抠鼻::抠鼻: 先告诉我怎么摆阵就行:笑哭::笑哭:`
+      },
+      {
+        type: 'img',
+        src: '/post/img/WeChat_img@ruoxi21325_201912102117.jpg'
+      }
+    ]
+  },
+  {
     createTime: '2019-12-10 21:03',
     content: [
       {
