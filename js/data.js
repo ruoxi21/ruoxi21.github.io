@@ -79,6 +79,19 @@ const love = [
     ]
   },
   {
+    createTime: '2019-12-12 19:51',
+    content: [
+      {
+        type: 'text',
+        text: `今天除了皮，又啥也没干`
+      },
+      {
+        type: 'img',
+        src: '/post/img/WeChat_img@ruoxi21325_201912121951.jpg'
+      }
+    ]
+  },
+  {
     createTime: '2019-12-11 19:21',
     content: [
       {
