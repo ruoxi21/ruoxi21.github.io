@@ -63,6 +63,22 @@ const love = [
     ]
   },
   {
+    createTime: '2019-12-12 09:03',
+    content: [
+      {
+        type: 'text',
+        text: `☆ Good morning~<br>
+              &emsp;‎也许总‎以为M<br>
+              ‎是生活‎欠我‎们一‎个“满意”<br> 
+              ‎其实，是‎我们欠‎生‎活‎一个“努‎力”。`
+      },
+      {
+        type: 'img',
+        src: '/post/img/WeChat_img@ruoxi21325_201912120903.jpg'
+      }
+    ]
+  },
+  {
     createTime: '2019-12-11 19:21',
     content: [
       {
