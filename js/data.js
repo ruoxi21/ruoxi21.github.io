@@ -89,6 +89,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-13 22:30",
+    content: [
+      {
+        type: "text",
+        text: `嗯哼 #一定是特别的缘分`
+      },
+      {
+        type: "video",
+        src: "/post/video/douyin_video@ruoxi21325_201912132230.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-12 21:17",
     content: [
       {
