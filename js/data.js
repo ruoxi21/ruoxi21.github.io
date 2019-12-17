@@ -89,6 +89,23 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-15 21:28",
+    content: [
+      {
+        type: "text",
+        text: `时间就像一把筛子，会过滤掉虚情假意，只留下赤诚真心。<br>
+               对你好的人，从来都不是说说而已的人，而是自始至终都坚定不移的陪在你身边的人。<br>
+               &emsp;生活中，总有人爱着你、关心着你，你从不是孤军奋战。<br>
+               爱会给你力量，走过变幻的四季。<br>
+               [夜听]: <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzI1NjA0MDg2Mw==&mid=2650708290&idx=1&sn=bbf20cc77a95efe1f5961f871f5cc6bf&chk">时间会留下对你好的人</a>`
+      },
+      {
+        type: "audio",
+        src: "/post/audio/夜听-时间会留下对你好的人.mp3"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-14 19:03",
     content: [
       {
