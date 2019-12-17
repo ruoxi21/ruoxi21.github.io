@@ -63,6 +63,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-16 11:36",
+    content: [
+      {
+        type: "text",
+        text: `为了这场雪我也是拼了:笑哭::笑哭::笑哭:#下雪了`
+      },
+      {
+        type: "video",
+        src: "/post/video/douyin_video@ruoxi21325_201912161136.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-14 19:03",
     content: [
       {
