@@ -71,6 +71,19 @@ const love = [
       },
       {
         type: "img",
+        src: "/post/WeChat_img@ruoxi21325_201912200843.jpg"
+      }
+    ]
+  },
+  {
+    createTime: "2019-12-19 17:29 i miss u",
+    content: [
+      {
+        type: "text",
+        text: ` 想吃部队火锅:囧::囧:🎉`
+      },
+      {
+        type: "img",
         src: "/post/WeChat_img@ruoxi21325_201912191729.jpg"
       }
     ]
