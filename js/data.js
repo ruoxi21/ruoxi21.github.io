@@ -63,6 +63,20 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-30 09:16 早安 跟我拍的一样样, 心有灵犀 imissu",
+    content: [
+      {
+        type: "text",
+        text: `蓄力新年心愿 哈哈 :laugh:<br>
+                &emsp;&emsp;&emsp; 哈哈, 跟我拍的一样样`
+      },
+      // {
+      //   type: "video",
+      //   src: "/post/video/douyin_video@ruoxi21325_201912300916.mp4"
+      // }
+    ]
+  },
+  {
     createTime: "2019-12-28 23:02 晚安 imissu",
     content: [
       {
