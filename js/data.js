@@ -63,6 +63,21 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-25 19:53",
+    content: [
+      {
+        type: "text",
+        text: `就算星星:sparkles:碎掉了<br>
+              &emsp溢出来的光也很好看     <br>
+              &emspl~:媚眼:`
+      },
+      {
+        type: "video",
+        src: "/post/video/WeChat_video@ruoxi21325_201912251953.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-24 10:32",
     content: [
       {
