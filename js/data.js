@@ -63,6 +63,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-25 21:57 哈哈等师傅带你",
+    content: [
+      {
+        type: "text",
+        text: ` 太久没玩，确实不行了:捂脸::捂脸::捂脸:🎉`
+      },
+      {
+        type: "img",
+        src: "/post/img/WeChat_img@ruoxi21325_201912252157.jpg"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-25 20:09",
     content: [
       {
