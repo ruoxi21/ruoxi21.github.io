@@ -80,6 +80,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-26 11:33 小样 刚说了什么 就开了一把游戏...",
+    content: [
+      {
+        type: "text",
+        text: `真不容易 :捂脸:`
+      },
+      {
+        type: "img",
+        src: "/post/img/WeChat_img@ruoxi21325_201912261133.jpg"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-25 21:57 哈哈等师傅带你",
     content: [
       {
