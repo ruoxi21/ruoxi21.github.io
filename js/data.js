@@ -63,6 +63,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-24 10:32",
+    content: [
+      {
+        type: "text",
+        text: `#我的抖音2019感谢`
+      },
+      {
+        type: "video",
+        src: "/post/video/douyin_video@ruoxi21325_201912241032.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-24 20:39 来 不用你要也给你",
     content: [
       {
