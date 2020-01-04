@@ -63,6 +63,23 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-26 10:15 加油!",
+    content: [
+      {
+        type: "text",
+        text: `以后每一天一定要优于昨天 <br>
+              人生三大错觉：顺其自然   <br>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 有缘无分    <br>
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 来日方长<br>
+               [十点读书]: <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MjM5MDMyMzg2MA==&mid=2655580531&idx=5&sn=8dc01f47d93d30860767a85bb2e21fdf">人生的三大错觉，越早认清越好</a>`
+      },
+      // {
+      //   type: "audio",
+      //   src: "/post/audio/十点读书-人生的三大错觉，越早认清越好.mp3"
+      // }
+    ]
+  },
+  {
     createTime: "2019-12-25 21:57 哈哈等师傅带你",
     content: [
       {
