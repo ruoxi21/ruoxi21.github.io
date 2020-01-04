@@ -63,17 +63,28 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-25 20:09",
+    content: [
+      {
+        type: "text",
+        text: `:snowman:     生活明朗   &emsp;   万物可爱     <br>
+                白白胖胖   &emsp;   充满希望   &emsp;   人间值得  <br>
+                &emsp;&emsp; 加油  冲呀:嘿哈::嘿哈::嘿哈:`
+      },
+      {
+        type: "video",
+        src: "/post/video/WeChat_video@ruoxi21325_201912252009.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-25 19:53",
     content: [
       {
         type: "text",
         text: `就算星星:sparkles:碎掉了<br>
-              &emsp溢出来的光也很好看     <br>
-              &emspl~:媚眼:`
-      },
-      {
-        type: "video",
-        src: "/post/video/WeChat_video@ruoxi21325_201912251953.mp4"
+              &emsp;溢出来的光也很好看     <br>
+              &emsp;~:媚眼:`
       }
     ]
   },
