@@ -50,6 +50,22 @@ const love = [
     ]
   },
   {
+    createTime: "2020-01-01 00:25 新年快乐, 2020抖音许愿: 找到你",
+    content: [
+      {
+        type: "text",
+        text: `:balloon: &emsp;&emsp; 2020新年快乐啊！<br>
+                &emsp;&emsp;:祝:：<br>
+                &emsp;&emsp;所得皆吾愿，所行化坦途！<br>
+                &emsp;&emsp; :heart:愿：有物暖身，有人暖心`
+      },
+      {
+        type: "video",
+        src: "/post/video/WeChat_video@ruoxi21325_202001010025.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-11-09 13:59",
     content: [
       {
