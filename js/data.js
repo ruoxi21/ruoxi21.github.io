@@ -63,6 +63,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-28 23:02 晚安 imissu",
+    content: [
+      {
+        type: "text",
+        text: `晚安`
+      },
+      {
+        type: "video",
+        src: "/post/video/WeChat_video@ruoxi21325_201912271116.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-27 11:16",
     content: [
       {
