@@ -63,6 +63,19 @@ const love = [
     ]
   },
   {
+    createTime: "2019-12-27 11:16",
+    content: [
+      {
+        type: "text",
+        text: `往事清零，爱很随意   往后每一天都比昨天好，必须好，加油呀！#我的抖音2019感谢 `
+      },
+      {
+        type: "video",
+        src: "/post/video/douyin_video@ruoxi21325_201912271116.mp4"
+      }
+    ]
+  },
+  {
     createTime: "2019-12-26 10:15 加油!",
     content: [
       {
