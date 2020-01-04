@@ -50,6 +50,20 @@ const love = [
     ]
   },
   {
+    createTime: "2020-01-01 21:32 世间美好与你环环相扣:嘻嘻:",
+    content: [
+      {
+        type: "text",
+        text: `世间所有美好，都会奔你而来 :pray:<br>
+               [夜听]: <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzI1NjA0MDg2Mw==&mid=2650708974&idx=1&sn=bb92b43a4df0e27f7b8f189ea2724d16">新的一年，愿一切都好</a>`
+      },
+      {
+        type: "audio",
+        src: "/post/audio/夜听-新的一年,愿一切都好.mp3"
+      }
+    ]
+  },
+  {
     createTime: "2020-01-01 11:49",
     content: [
       {
