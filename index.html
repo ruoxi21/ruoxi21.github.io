@@ -53,7 +53,7 @@
             <source :src='l.src' type="audio/mp3">
           </audio>
 
-          <video class="ruoxi-video a-v" v-if="l.type === 'video'" :src="l.src" controls width="325"></video>
+          <video preload="none" class="ruoxi-video a-v" v-if="l.type === 'video'" :src="l.src" controls width="325"></video>
         </div>
 
         <!-- createTime -->
