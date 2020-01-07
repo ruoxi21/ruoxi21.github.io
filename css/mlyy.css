@@ -73,7 +73,9 @@ header > p {
   font-size: 21px;
   color: #fff;
   text-align: center;
-  background: #df00ff;
+  /* background: #df00ff; */
+  background: -webkit-linear-gradient(325deg, #FF0080, #ff4b01, #E02AFF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(325deg, #FF0080, #ff4b01, #E02AFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   top: -60px;
   transition: all 0.325s;
 }
