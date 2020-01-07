@@ -44,7 +44,7 @@
         <div v-for='(l, i) in item.content' :key='i'>
           <p v-if="l.type === 'text'" v-html='l.text'></p>
 
-          <img @click='showImgMask($event)' v-if="l.type === 'img'" v-lazy="l.src" title="_{}" alt="_{}" width="325">
+          <img @click.stop.prevent='showImgMask($event)' v-if="l.type === 'img'" v-lazy="l.src" title="_{}" alt="_{}" width="325">
           <div class="showimg-mask" @click="showImg = !showImg" v-if="l.type === 'img' && showImg">
             <img class="show_img" :src="maskImgUrl" alt="_{}" title="_{}">
           </div>
@@ -84,8 +84,8 @@
       methods: {
         showImgMask(e) {
           // console.log(e)
-          this.showImg = true
           this.maskImgUrl = e.target.currentSrc
+          this.showImg = true
         }
       },
     })
