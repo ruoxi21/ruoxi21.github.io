@@ -34,6 +34,7 @@
     </div>
   </div>
   <div id="site-process" style="width: 21.325%;"></div>
+  <!-- <div class="bg-page"></div> -->
 
   <section>
     <div id="app">
@@ -44,7 +45,7 @@
         <div v-for='(l, i) in item.content' :key='i'>
           <p v-if="l.type === 'text'" v-html='l.text'></p>
 
-          <img @click.stop.prevent='showImgMask($event)' v-if="l.type === 'img'" v-lazy="l.src" title="_{}" alt="_{}" width="325">
+          <img @click.prevent='showImgMask($event)' v-if="l.type === 'img'" v-lazy="l.src" title="_{}" alt="_{}" width="325">
           <div class="showimg-mask" @click="showImg = !showImg" v-if="l.type === 'img' && showImg">
             <img class="show_img" :src="maskImgUrl" alt="_{}" title="_{}">
           </div>
@@ -54,6 +55,11 @@
           </audio>
 
           <video preload="none" class="ruoxi-video a-v" v-if="l.type === 'video'" :src="l.src" controls width="325"></video>
+
+          <!-- <div class="video-ruoxi21" v-if="l.type === 'video'">
+            <img src="./post/img/ml-8.png" style="width: 325px;position: absolute;" alt="_{}">
+            <video preload="none" class="ruoxi-video a-v" :src="l.src" style="background-image: url(./post/img/ml-8.png);" controls width="325"></video>
+          </div> -->
         </div>
 
         <!-- createTime -->

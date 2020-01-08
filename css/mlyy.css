@@ -120,6 +120,16 @@ i.marry:hover {
   z-index: 300;
 }
 
+/* .bg-page {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  background: url(../post/img/21325ILOVEU.jpg) no-repeat;
+} */
+
 section {
   padding: 21px;
   letter-spacing: -0.3px;
