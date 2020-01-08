@@ -47,6 +47,26 @@ const love = [
         type: "img",
         src: "/post/img/21325.jpg"
       }
+    ] 
+    
+  },
+  {
+    createTime: "2020-01-08 09:21",
+    content: [
+      {
+        type: "text",
+        text: `:sunny::sunny::sunny: <br>
+                “你一定要爱着点什么，恰似草木对光阴的钟情”<br>
+                &emsp;&emsp;&emsp;&emsp;————《人间草木》`
+      },
+      {
+        type: "img",
+        src: "/post/img/WeChat_img@ruoxi21325_202001080921-1.jpg"
+      },
+      {
+        type: "img",
+        src: "/post/img/WeChat_img@ruoxi21325_202001080921-2.jpg"
+      }
     ]
   },
   {
