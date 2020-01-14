@@ -51,6 +51,26 @@ const love = [
     
   },
   {
+    createTime: "2020-01-13 20:05 yy baby Hug one !",
+    content: [
+      {
+        type: "text",
+        text: `“善良和喜欢都是免费的，但不是廉价的 ”<br>
+                Kindness and like are free, but not cheap <br> 
+                <br>
+                &emsp;&emsp;&emsp;&emsp;————《聽風者》`
+      },
+      {
+        type: "img",
+        src: "/post/img/wx_2001132005-1.jpg"
+      },
+      {
+        type: "img",
+        src: "/post/img/wx_2001132005-2.jpg"
+      }
+    ]
+  },
+  {
     createTime: "2020-01-12 22:46 小傻瓜",
     content: [
       {
