@@ -1,6 +1,6 @@
 const love = [
   {
-    createTime: "2019-03-25",
+    createTime: "2018-03-25",
     content: [
       {
         type: "text",
@@ -14,7 +14,7 @@ const love = [
     ]
   },
   {
-    createTime: "2019-03-25",
+    createTime: "2018-03-25",
     content: [
       {
         type: "text",
@@ -33,7 +33,7 @@ const love = [
     ]
   },
   {
-    createTime: "2019-03-25",
+    createTime: "2018-03-25",
     content: [
       {
         type: "text",
@@ -49,6 +49,19 @@ const love = [
       }
     ] 
     
+  },
+  {
+    createTime: "2020-01-12 22:46 小傻瓜",
+    content: [
+      {
+        type: "text",
+        text: `#人影错落分三格 手是牵的，:rose:花是鲜的，情话都是编:clap::clap:都是大实话#嘴唇`
+      },
+      {
+        type: "video",
+        src: "/post/video/douyin_video@ruoxi21325_202001122246.mp4"
+      }
+    ]
   },
   {
     createTime: "2020-01-08 09:21 钟情于你, 不曾有变!",
